@@ -1,0 +1,190 @@
+@media screen and (max-width: 1200px) {
+  nav.nav {
+    display: none;
+  }
+
+  nav.nav-2 {
+    display: inline;
+  }
+  .nav-2 {
+    display: flex;
+    flex-direction: column;
+    margin:  3.75rem auto;
+    height: 3.5rem;
+    max-width: 68.75rem;
+    width: 85%;
+  }
+
+  .nav2-bottom {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.125rem;
+  }
+
+  .nav2-bottom .search-bar {
+    max-width: 28.125rem;
+    width: 95%;
+  }
+
+  .menu-slider {
+    margin: 5rem .625rem 1.25rem .625rem;
+  }
+
+  .tabs-box .tab:first-child {
+    padding-left: 400px;
+   }
+
+   .brands img {
+    padding: 1.25rem;
+  }
+
+   .footer-col {
+    margin-bottom: 2.5rem;
+    padding: 0 1.25rem;
+   }
+}
+
+
+@media only screen and (max-width: 992px) {
+  .tabs-box .tab:first-child {
+    padding-left: 600px;
+   }
+
+  .footer-main {
+    justify-content: space-evenly;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .menu-slider a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    width: 115px;
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .tabs-box .tab:first-child {
+    padding-left: 570px;
+   }
+
+  .header-title {
+    font-size: 1.875rem;
+    bottom: 14.0625rem;
+  }
+
+  .header-btn {
+    font-size: .9375rem;
+    padding: .625rem .3125rem;
+    min-width: 3.125rem;
+    max-width: 11.25rem;
+  }
+
+  .brand-section {
+    position: relative;
+  }
+
+  .brands {
+    margin-bottom: 0;
+  }
+
+  .see-all-brands {
+    position: absolute;
+    bottom: 0;
+    right: 1.25rem;
+    padding-right: 0;
+  }
+
+  .learn-more, .learn-more-alt {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0;
+  }
+
+  .about__details {
+    text-align: center;
+    margin-top: .625rem;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .nav-top {
+    margin-bottom: .625rem;
+  }
+
+  .nav-2 {
+    width: 95%;
+    max-width: 28.125rem;
+  }
+
+  .nav-2 img {
+    padding-right: .625rem;
+  }
+  
+  .nav2-right {
+    padding-left: 2.5rem;
+  }
+
+  .nav2-bottom {
+    margin-top: 25px;
+  }
+
+  .menu-slider {
+    margin-bottom: 0;
+  }
+
+  .tabs-box .tab:first-child {
+    padding-left: 835px;
+   }
+
+  .header-title {
+    font-size: 1.5625rem;
+    bottom: 12.875rem;
+    left: 1.875rem;
+  }
+
+  .header-btn {
+    font-size: .9375rem;
+    padding: .625rem .3125rem;
+    min-width: 3.125rem;
+    max-width: 11.25rem;
+    left: 3.4375rem;
+    bottom: 8.8125rem;
+  }
+
+  .see-all-brands {
+    right: .625rem;
+  }
+
+	.features {
+		grid-template-columns: 1fr 1fr;
+	}
+  
+  .skate-video-text a,
+  .skate-video-text i  {
+    font-size: 1.125rem;
+  }
+
+  .footer-main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-col {
+    text-align: center;
+    justify-content: center;
+    margin: .625rem auto;
+  }
+
+  .footer-bottom-p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+  }
+}
